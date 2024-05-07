@@ -1,0 +1,13 @@
+/* 
+Secara default body memiliki margin bawaan jadi elemen block yang kita gunakan tidak akan menempel pinggir web 
+Bisa juga menggunakan elemen (*) berarti untuk semua elemen property
+*/
+body {
+    margin: 0;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}

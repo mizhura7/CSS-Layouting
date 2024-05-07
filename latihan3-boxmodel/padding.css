@@ -1,0 +1,15 @@
+div {
+    width: 300px;
+    height: 300px;
+    background-color: lightsalmon;
+    margin: 20px auto;
+    /* Untuk padding ini berfungsi sebagai jarak pada luar kotak di luar content */
+    padding-left: 50px;
+    padding-top: 200px;
+    /* 
+        Border ini berfungsi sebagai border pinggir kotak : border: 3px solid black
+        Macam macam style border (solid, dotted, dashed, double)
+        Box Sizing .....
+    */
+    border: 10px solid blue;
+}

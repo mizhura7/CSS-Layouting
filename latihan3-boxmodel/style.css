@@ -1,0 +1,31 @@
+.satu {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    /* Penggunaan margin pada border suatu block */
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 110px;
+    margin-right: 50px;
+}
+
+.dua {
+    width: 100px;
+    height: 100px;
+    background-color: lightcoral;
+    /* 
+        Overlapping margin untuk elemen yang vertikal
+        Jadi tidak ada efect margin karena margin atas lebih besar nilai
+        Ada juga pada inline block margin horizontal akan di tambahkan nilainya
+     */
+    margin-top: 50pxs;
+    
+    
+}
+
+
+.tiga {
+    width: 50px;
+    height: 50px;
+    background-color: lightgreen;
+}
