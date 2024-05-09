@@ -1,0 +1,25 @@
+Position :
+    - Staic
+    - Relative
+    - Absolute
+    - Fix
+
+CSS Position :
+- Static adalah nilai default dari tiap-tiap elemen ketika diberi properti Position
+- Menggunakan position selain static(non static), akan membuat sebuah elemen menjadi seolah-olah berbeda dimensi dari elemen lainya
+- Elemen yang diberi position selain static dapat menggunakan properti top, left, bottom dan right untuk mengatur posisinya.
+
+Relative
+- Ketika kita men menggerakkan elemen dengan posisi relative (menggunakan properti top, left, bottom dan right), ruang yang di tempati oleh elemen tersebuh masih ada.
+- Ketika kita menggerakkan elemen dengan posisi relative, elemen akan bergerak relatif terhadap posisi semulanya
+- Jika kita memberi properti top: 0; dan left: 0; maka elemen tidak berubah posisinya
+
+Absolute 
+- Ketika kita menggerakkan elemen dengan posisi Absolute (menggunakan properti top, left, bottom, dan right), ruang
+yang di tempati oleh elemen tersebut dianggap tidak ada.
+- Ketika kita menggerakkan elemen dengan posisi Absolute, elemenakan bergerak relatif terhdap posisi dari parentnya. Selama elemen parent-nya memiki posisi yang juga non-static
+- Jika kita memberi properti top: 0; dan left: 0; maka elemen akan berada di ujung kiri atas dari elemen parentnya
+
+
+Fixed
+- Penggunaan fix seperti menu bar ketika website di geser turun terus menu tetap ada tidak hilang

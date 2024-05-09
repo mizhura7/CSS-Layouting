@@ -1,0 +1,24 @@
+/* Solusi gambar keluar ketika float menggunakan overflow auto */
+.container{
+    width: 600px;
+    border: 1px solid black;
+    margin: auto;
+    padding: 5px;
+    /* overflow: auto; */
+}
+
+/* Penggunaan float yang membuat text bisa mengelilingi sebuah gambar seperti wrapping */
+.container .image {
+    background-size: cover;
+    background-image: url(cat.jpeg);
+    height: 250px;
+    width: 350px;
+    float: left;
+}
+
+/* Penggunaan property clear untuk membersihkan float */
+.clear {
+    clear: left;
+}
+
+/* Micro Clearfix */

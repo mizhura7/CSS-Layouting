@@ -1,0 +1,20 @@
+div {
+    width: 200px;
+    height: 200px;
+}
+
+.satu {
+    background-color: blueviolet;
+}
+
+/* Percobaan menggunakan position relative membuat elemen maju dimensi jadi bisa akses top bottom left right tanpa
+mengganggu elemen lainya */
+.dua {
+    background-color: red;
+    position: relative;
+    margin-top: 20px;
+}
+
+.tiga {
+    background-color: aqua;
+}

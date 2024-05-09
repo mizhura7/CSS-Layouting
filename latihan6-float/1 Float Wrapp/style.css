@@ -1,0 +1,28 @@
+.container{
+    width: 600px;
+    border: 1px solid black;
+    margin: auto;
+    padding: 5px;
+}
+.satu {
+    background-color: salmon;
+}
+
+.dua {
+    background-color: lightblue;
+    float: right;
+
+}
+
+.tiga {
+    background-color: lightgreen;
+}
+
+/* Penggunaan float yang membuat text bisa mengelilingi sebuah gambar seperti wrapping */
+.container .image {
+    background-size: cover;
+    background-image: url(cat.jpeg);
+    height: 250px;
+    width: 350px;
+    float: left;
+}

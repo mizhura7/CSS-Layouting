@@ -1,0 +1,13 @@
+Position :
+    - Staic
+    - Relative
+    - Absolute
+    - Fix
+
+CSS Position :
+- Static adalah nilai default dari tiap-tiap elemen ketika diberi properti Position
+- Menggunakan position selain static(non static), akan membuat sebuah elemen menjadi seolah-olah berbeda dimensi dari elemen lainya
+- Elemen yang diberi position selain static dapat menggunakan properti top, left, bottom dan right untuk mengatur posisinya.
+
+Z-Index
+- Penggunaan z index ini untuk mengatur elemen non-staic position jadi dengan ini kita bisa memberikan masing-masing elemen dengan nilai tertentu yang nilai lebih besar elemen akan di taruh paling atas.
